@@ -273,12 +273,12 @@ CREATE TABLE `karyawan` (
 -- (5, 'SMAN 4 Makassar', 'akbar', 'jl. masjid raya', 'memajukan yang dibelakang', 'membantu visi memajukan yang dibelakang', '99898'),
 -- (7, 'SMAN 16', 'trty', 'ghf', 'hgf', 'hgf', 'hgf');
 INSERT INTO `karyawan` (`id_karyawan`, `nama_karyawan`,`no_telpon`) VALUES
-(1, 'SMAN 17 Makassar', 'Syamsuddin, S. Pd, MM.','0411- 445825'),
-(2, 'SMAIT Al Biruni Makassar', 'Muh. Arafah Kube, ST','0411-425277'),
-(3, 'SMAN 18 Makassar', 'abus', '0411 - 511121'),
-(4, 'SMAN 5 Makassar', 'ana', '88888'),
-(5, 'SMAN 4 Makassar', 'akbar', '99898'),
-(7, 'SMAN 16 Makassar', 'asdfg', 'qwert', '999999');
+(1,  'A','0411- 445825'),
+(2,  'Muh. Arafah Kube, ST','0411-425277'),
+(3,  'abus', '0411 - 511121'),
+(4,  'ana', '88888'),
+(5,  'akbar', '99898'),
+(7,  'qwert', '999999');
 
 -- --------------------------------------------------------
 

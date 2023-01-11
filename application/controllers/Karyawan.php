@@ -137,8 +137,8 @@ class Karyawan extends CI_Controller
                 'nama_karyawan' => $this->input->post('nama_karyawan', TRUE),
                 // 'nama_kepsek' => $this->input->post('nama_kepsek', TRUE),
                 'alamat_karyawan' => $this->input->post('alamat_karyawan', TRUE),
-                'visi' => $this->input->post('visi', TRUE),
-                'misi' => $this->input->post('misi', TRUE),
+                // 'visi' => $this->input->post('visi', TRUE),
+                // 'misi' => $this->input->post('misi', TRUE),
                 'no_telpon' => $this->input->post('no_telpon', TRUE),
             );
 
@@ -167,8 +167,8 @@ class Karyawan extends CI_Controller
         $this->form_validation->set_rules('nama_karyawan', 'nama karyawan', 'trim|required');
         // $this->form_validation->set_rules('nsama_kepsek', 'nama kepsek', 'trim|required');
         $this->form_validation->set_rules('alamat_karyawan', 'alamat karyawan', 'trim|required');
-        $this->form_validation->set_rules('visi', 'visi', 'trim|required');
-        $this->form_validation->set_rules('misi', 'misi', 'trim|required');
+        // $this->form_validation->set_rules('visi', 'visi', 'trim|required');
+        // $this->form_validation->set_rules('misi', 'misi', 'trim|required');
         $this->form_validation->set_rules('no_telpon', 'no telpon', 'trim|required');
 
         $this->form_validation->set_rules('id_karyawan', 'id_karyawan', 'trim');

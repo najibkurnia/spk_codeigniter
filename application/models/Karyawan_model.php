@@ -23,6 +23,12 @@ class Karyawan_model extends CI_Model
         return $d;
     }
     // get all
+    // function get_all()
+    // {
+    //     $this->db->order_by($this->id, $this->order);
+    //     return $this->db->get($this->table)->result();
+    // }
+
     function get_all()
     {
         $this->db->order_by($this->id, $this->order);
@@ -53,7 +59,8 @@ class Karyawan_model extends CI_Model
     // get data with limit and search
     function get_limit_data($limit, $start = 0, $q = NULL)
     {
-        $this->db->order_by($this->id, $this->order);
+        // $this->db->order_by($this->id, $this->order);
+        $this->db->order_by($this->id, 'ASC');
         $this->db->like('id_karyawan', $q);
         $this->db->or_like('nama_karyawan', $q);
         // $this->db->or_like('nama_kepsek', $q);

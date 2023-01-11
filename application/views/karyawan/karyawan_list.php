@@ -35,7 +35,7 @@
                 <th style="text-align:center" ><b>No<b></th>
         		<th ><b>Nama Karyawan<b></th>
         		<!-- <th>Alamat Karyawan</th> -->
-                <!-- <th>No telpon</th> -->
+                <th>No telpon</th>
         		<th style="text-align:center"><b>Action<b></th>
                     </tr><?php
                     foreach ($karyawan_data as $karyawan)
@@ -45,7 +45,7 @@
     			<td style="text-align:center;color:black" width="80px"><?php echo ++$start ?></td>
     			<td style="color:black"><?php echo $karyawan->nama_karyawan ?></td>
     			<!-- <td><?php echo $karyawan->alamat_karyawan ?></td> -->
-                <!-- <td><?php echo $karyawan->no_telpon ?></td> -->
+                <td><?php echo $karyawan->no_telpon ?></td>
     			<td style="text-align:center" width="300px">
     				<?php 
     				// echo anchor(site_url('karyawan/read/'.$karyawan->id_karyawan),'Read', array('class'=>'btn btn-primary btn-sm')); 
